@@ -1,0 +1,18 @@
+# Entorno y secretos
+.env
+*.env
+state.json
+src/state.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Salidas/debug
+output/
+debug_toa/
+login_debug_*.png
+login_debug_*.json
+*.log
