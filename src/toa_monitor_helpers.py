@@ -520,7 +520,6 @@ def obtener_inputexcel() -> List[Dict[str, str]]:
     )
 
     print("Status mapping:", response.status_code)
-    print("Respuesta mapping:", response.text)
 
     if response.status_code != 200:
         raise RuntimeError(
